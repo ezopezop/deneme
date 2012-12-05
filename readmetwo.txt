@@ -1,0 +1,1 @@
+baska bir deneme dosya
