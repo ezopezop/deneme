@@ -6,6 +6,6 @@ abstract class Element {
   val with: Int = if(contents.length == 0) 0 else contents(0).length  
 }
 
-Class ArrayElement(conts: Array[Sting]) extends Element {
-	val contents: Array[String] = conts
+Class ArrayElement(val contents: Array[Sting]) extends Element {
+	
 }
